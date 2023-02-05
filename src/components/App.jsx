@@ -45,7 +45,6 @@ export default class App extends Component {
     this.setState(prevState => ({
       contacts: prevState.contacts.filter(contact => contact.id !== contactsId),
     }));
-    console.log(contactsId);
   };
 
   componentDidMount() {
